@@ -1,0 +1,21 @@
+@import "./index.scss";
+@import "./semantic-ui/index.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: $text-primary;
+}
+
+body {
+    background-color: $background-primary;
+}
+
+a {
+    color: $text-primary;
+
+    &:hover {
+        color: $primary;
+    }
+}
